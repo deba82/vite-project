@@ -4,6 +4,7 @@ import {RouterView} from 'vue-router'
 
 <template>
   <router-view/>
+  {{$router.getRoutes()}}
 </template>
 
 <style>
