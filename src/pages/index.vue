@@ -1,5 +1,6 @@
 <template>
     This is index vue
+    <RouterLink to="/about">about.vue</RouterLink>
 </template>
 
 <route lang="json4">
@@ -12,3 +13,6 @@
     props:false
 }
 </route>
+<script lang="ts" setup>
+import {RouterLink} from 'vue-router'
+</script>
